@@ -25,7 +25,7 @@ const DesktopItem: React.FC<DesktopItemProps> = ({
   };
 
   return (
-    <li onClick={handleClick}>
+    <li onClick={handleClick} key={label}>
       <Link
         href={href}
         className={clsx(
