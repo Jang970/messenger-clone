@@ -9,11 +9,11 @@ export async function POST(request: Request) {
     const { userId, isGroup, members, name } = body;
 
     if (!currentUser?.id || !currentUser?.email) {
-      return new NextResponse("unauthorized", { status: 401 });
+      return new NextResponse("Unauthorized", { status: 400 });
     }
 
     if (isGroup && (!members || members.length < 2 || !name)) {
-      return new NextResponse("invalid data", { status: 400 });
+      return new NextResponse("Invalid data", { status: 400 });
     }
 
     if (isGroup) {
@@ -23,10 +23,12 @@ export async function POST(request: Request) {
           isGroup,
           users: {
             connect: [
-              ...members.map((member: { value: string }) => {
-                id: member.value;
-              }),
-              { id: currentUser.id },
+              ...members.map((member: { value: string }) => ({
+                id: member.value,
+              })),
+              {
+                id: currentUser.id,
+              },
             ],
           },
         },
