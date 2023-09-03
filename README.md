@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# App Screenshots!
 
-## Getting Started
+## Log In / Register
+![Log_In](https://github.com/Jang970/messenger-clone/assets/100278157/0dafd94f-663e-432c-8b22-349ec20bbe20)
 
-First, run the development server:
+## Users Page
+![Users_page](https://github.com/Jang970/messenger-clone/assets/100278157/12acb901-e605-4007-b566-df0b63b136f0)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Conversations Pages
+![One_on_One_chat](https://github.com/Jang970/messenger-clone/assets/100278157/17bf2a54-a1d5-411b-b84d-8d51d6ed4784)
+![Group_chat](https://github.com/Jang970/messenger-clone/assets/100278157/b1b55ba3-545e-454e-9112-c4161218a28a)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Modals
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Profile Editor
+![Profile_editor](https://github.com/Jang970/messenger-clone/assets/100278157/1419b8c9-05be-475b-a37c-ce1388fd6123)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Image Uploader
+![img_upload_modal](https://github.com/Jang970/messenger-clone/assets/100278157/5c261d3a-1024-4fc4-b649-43e9e95a6f4d)
 
-## Learn More
+### Group Chat Creator
+![Group_chat_modal](https://github.com/Jang970/messenger-clone/assets/100278157/a605e44c-d583-48af-bdce-f011e116100d)
 
-To learn more about Next.js, take a look at the following resources:
+## Mobile Support
+![Small_screen](https://github.com/Jang970/messenger-clone/assets/100278157/cc8dcd5e-e8b9-4977-9b28-b934da6886b0)
+![Small_screen_chat](https://github.com/Jang970/messenger-clone/assets/100278157/6404ef5a-1779-4cca-b909-873069c1de35)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credits
+https://www.youtube.com/watch?v=PGPGcKBpAk8 
